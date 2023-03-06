@@ -178,3 +178,38 @@ color: #fff;
   background-color:#455357;
   color: #fff;
   }
+
+  .last-articles__title{
+  background-color: #63c6ae;
+  padding: .5rem 0;
+  }
+  .last-articles__title h2{
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  font-weight: 400;
+  }
+
+.last-articles__thumbs{
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+grid-auto-rows: auto;
+grid-gap:0;
+}
+.last-articles__thumbs img{
+display: block;
+width: 100%;
+}
+
+.laptop-slider{
+background-color: #242a2c;
+padding: 12.5rem 0 10rem;
+width: 100%;
+overflow: auto;
+}
+.slidershow{
+white-space: nowrap;
+}
+.slidershow figure{
+display: inline-block;
+}
