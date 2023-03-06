@@ -10,9 +10,15 @@ font-size: 62.5%;
 body{
 font-family: 'open Sans', sans-serif;
 font-size: 1.6rem;
+line-height: 1.4;
 }
 img{
 max-width: 100%;
+}
+.container{
+margin-inline: auto;
+padding-inline: 1rem;
+
 }
 .header{
 background-color: #ffffff;
@@ -95,4 +101,47 @@ color: #ffffff;
 text-decoration: none;
 font-weight: 600;
 text-transform: uppercase;
+}
+
+.people-cards{
+margin-top: 2.5rem;
+}
+.people-cards__card:hover{
+outline: 5px solid #63c6ae;
+outline-offset: -.5rem;
+transition: .1s;
+color: #63c6ae;
+}
+.people-cards__card:hover .people-cards__avatar img{
+transform: translateY(-50%);
+}
+
+.people-cards__card:hover .people-cards__title,
+.people-cards__card:hover .people-cards__text{
+color: #63c6ae;
+}
+.people-cards__image{
+width: 100%;
+}
+.people-cards__avatar{
+margin: -5.5rem auto;
+width: 8rem;
+height: 8rem;
+overflow: hidden;
+}
+.people-cards__content{
+text-align: center;
+padding: 4rem 2.5rem 1rem;
+border-left: 1px solid #dbe1e7;
+}
+.people-cards__title{
+color: #737c85;
+font-size: 2.1rem;
+/* opcional*/
+padding: 2rem 0;
+font-weight: normal;
+}
+.people-cards__text{
+color: #929da5;
+font-size:1.4rem ;
 }
