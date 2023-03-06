@@ -64,11 +64,14 @@ color: #63c6ae;
 height: 80vh;
 padding: 4rem 2rem;
 text-align: center;
-background-image: url(..//img/01.jpg);
-background-size: cover;
 display: flex;
 flex-direction: column;
 justify-content: center;
+align-items: center;
+background: linear-gradient(45deg, white 50%, transparent 50%)   left calc(50% + 2rem) bottom no-repeat, 
+linear-gradient(-45deg, white 50%, transparent 50%) left calc(50% - 2rem) bottom no-repeat,
+     url(..//img/01.jpg);
+background-size:4rem 4rem , 4rem 4rem , cover;
 }
 .hero__title{
 background-color: #63c6ae;
@@ -76,4 +79,20 @@ color: #ffffff;
 font-size: 2.8rem;
 font-weight: bold;
 padding: 3rem 2rem;
+}
+.hero__text{
+background-color: #242c2c;
+margin: .5rem 3rem 3.5rem;
+color: #ffffff;
+padding: 2rem;
+}
+.hero__btn{
+border: 1px solid rgba(255,255,255,.3);
+background-color: rgba(0,0,0,.2);
+border-radius: .5rem;
+padding: 1.5rem 2.5rem;
+color: #ffffff;
+text-decoration: none;
+font-weight: 600;
+text-transform: uppercase;
 }
