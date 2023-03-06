@@ -213,3 +213,23 @@ white-space: nowrap;
 .slidershow figure{
 display: inline-block;
 }
+
+.quote-container{
+background-color: #63c6ae;
+padding: 5rem 0;
+border-bottom:12px solid #48b9a1;
+}
+.quote-slidershow h2{
+color: #fff;
+font-size: 3rem;
+font-style: italic;
+font-weight: normal;
+}
+.quote-slidershow figcaption{
+font-size: 1.8rem;
+color: #fff;
+text-align: center;
+}
+.no-js .quote-slidershow figure + figure{
+margin-top: 5rem;
+}
