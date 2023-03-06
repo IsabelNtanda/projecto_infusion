@@ -233,3 +233,19 @@ text-align: center;
 .no-js .quote-slidershow figure + figure{
 margin-top: 5rem;
 }
+
+.footer{
+background-color: #242a2c;
+padding: 5rem 0 25rem;
+color: #455351;
+font-size: 1.4rem;
+}
+.footer__link li{
+list-style: none;
+}
+.footer__link li a{
+color: #455351;
+display: block;
+font-weight: 600;
+text-decoration: none;
+}
