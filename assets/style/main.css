@@ -1,13 +1,10 @@
-*{
-margin: 0;
-padding: 0;
-}
 
 :root{
 font-size: 62.5%;
 }
 
 body{
+  margin: 0;
 font-family: 'open Sans', sans-serif;
 font-size: 1.6rem;
 line-height: 1.4;
@@ -137,11 +134,47 @@ border-left: 1px solid #dbe1e7;
 .people-cards__title{
 color: #737c85;
 font-size: 2.1rem;
-/* opcional*/
-padding: 2rem 0;
 font-weight: normal;
 }
 .people-cards__text{
 color: #929da5;
 font-size:1.4rem ;
 }
+.content{
+background-color: #f8f9f9;
+padding: 2rem 0 8rem;
+border: 1px solid #e3e3e3;
+}
+.content h3{
+color: #737c85;
+font-size: 2.1rem;
+padding-top: 4rem;
+font-weight: 400;
+}
+.content p{
+color: #929da5;
+font-size: 1.4rem;
+word-spacing: .3rem;
+}
+
+.button{
+padding: 1.5rem 4rem;
+border-radius: .3rem;
+text-decoration: none;
+font-weight:600;
+font-size: 1.5rem;
+margin-right: 1.5rem;
+display: inline-block;
+transition: background .4s ease;
+}
+.button:hover{
+background-color: #929da5;
+}
+.button-primary{
+background-color:#63c6ae;
+color: #fff;
+}
+.button-secundary{
+  background-color:#455357;
+  color: #fff;
+  }
