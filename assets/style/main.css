@@ -20,6 +20,7 @@ max-width: 100%;
 .container{
 margin-inline: auto;
 padding-inline: 1rem;
+max-width: 98rem;
 }
 .header{
 background-color: #ffffff;
@@ -182,7 +183,6 @@ color: #fff;
   background-color:#455357;
   color: #fff;
   }
-
   .last-articles__title{
   background-color: #63c6ae;
   padding: .5rem 0;
@@ -255,4 +255,40 @@ color: #455351;
 display: block;
 font-weight: 600;
 text-decoration: none;
+}
+
+@media (min-width:1024px){
+  
+  .header{
+  position: fixed;
+  }
+  .logo-text{
+  width: 25%;
+  }
+  .header__nav{
+  float: left;
+  width: 75%;
+  clear: none;
+  max-width: 80rem;
+  }
+  .header__nav ul {
+  display: flex;
+  justify-content:space-around;
+  }
+  .header__nav ul li{
+    border-bottom:none;
+    flex-grow: 1;
+    }
+    .header__nav ul li a{
+      background: #fff;
+    }
+    
+    .people-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap:2rem ;
+    }
+  .header__btnMenu{
+  display: none;
+  }
 }
